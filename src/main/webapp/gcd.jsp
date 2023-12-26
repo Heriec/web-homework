@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <title>计算最大公约数</title>
@@ -21,7 +21,7 @@
         Integer result = (Integer) request.getAttribute("result");
         if (num1 != null && num2 != null && result != null) {
     %>
-    The <%=num1%>, <%=num2%> 的最大公约数为： <%=result%>
+    <%=num1%>, <%=num2%> 的最大公约数为： <%=result%>
     <%
         }
     %>
