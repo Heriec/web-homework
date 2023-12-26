@@ -1,4 +1,4 @@
-package com.web.homework.work;
+package com.web.homework.controller;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -10,7 +10,7 @@ import java.io.PrintWriter;
 import java.util.Random;
 
 @WebServlet("/random")
-public class Work1Servlet extends HttpServlet {
+public class RandomServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.setContentType("text/html");
